@@ -11,7 +11,7 @@ gulp.task('server', function(){
       baseDir: './'
     }
   });
-  gulp.watch(['assets/css/style.css'],['css'])
+  gulp.watch(['assets/css/style.css'],[reload])
 });
 
 gulp.task('css', function(){
