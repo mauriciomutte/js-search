@@ -24,11 +24,12 @@ body {
 .list__champion {
   display: inline-block;
   margin: 2em;
+  width: 110px;
 }
 
 .list__champion__img {
   height: auto;
-  width: 80px;
+  width: 85px;
 }
 
 .list__champion__name {
