@@ -36,3 +36,22 @@ function call() {
   require.send()
 }
 call()
+
+// SEARCH
+window.onload = function() {
+  let search = document.getElementById('filterChampions')
+  search.addEventListener('keyup', function(){
+    let filter = search.value.toUpperCase()
+    let champions = document.getElementsByClassName('list__champion')
+
+    for (let i = 0; i < champions.length; i++) {
+      const championName = champions[i].innerText.toUpperCase()
+
+      if (championName.indexOf(filter) > -1) {
+        champions[i].style.display = ''
+      } else {
+        champions[i].style.display = 'none'
+      }
+    }
+  })
+}
