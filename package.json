@@ -19,7 +19,7 @@
   "homepage": "https://github.com/mauriciomutte/js-search#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0",
+    "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-cssmin": "^0.2.0",
     "gulp-strip-css-comments": "^2.0.0",
