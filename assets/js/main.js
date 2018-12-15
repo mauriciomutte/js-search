@@ -19,7 +19,7 @@ function createChampion(name, img) {
 
 function call() {
   const require = new XMLHttpRequest()
-  require.open('GET', 'http://ddragon.leagueoflegends.com/cdn/8.24.1/data/pt_BR/champion.json', true)
+  require.open('GET', 'https://ddragon.leagueoflegends.com/cdn/8.24.1/data/pt_BR/champion.json', true)
   require.onload = function() {
     const championsJSON = JSON.parse(this.responseText).data
     const version = JSON.parse(this.responseText).version
