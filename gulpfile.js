@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const cssmin = require('gulp-cssmin');
+const concat = require('gulp-concat');
 const stripCssComments = require('gulp-strip-css-comments');
 const watch = require('gulp-watch');
 const browserSync = require('browser-sync').create();
